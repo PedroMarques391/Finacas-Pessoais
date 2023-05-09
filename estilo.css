@@ -1,0 +1,92 @@
+
+body {
+    background: #1b1b1b;
+    color: #b70505;
+}
+
+
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: red;
+}
+
+h2 {
+    float: right;
+    padding: 10px;
+    color: #110e0e;
+    font-size: 50px;
+    font-weight: 350;
+    margin-top: -100px;
+    color: #b70505;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b1b1b;
+    border-color: #b70505;
+}
+
+.divClass {
+    height: 105px;
+    text-align: center;
+    background: rgb(250, 250, 250);
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 50px;
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.5);
+}
+
+div.relogio {
+    text-align: center;
+    padding: 10px;
+    color: #110e0e;
+    font-size: 58px;
+    font-weight: 350;
+    
+    color: #b70505;
+}
+
+h1.formatacaoH1 {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+}
+
+
+@media (max-width: 430px) {
+    h2 {
+        margin-top: 10px;
+        padding-bottom: 0;
+        float: none;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .divClass {
+        height: 105px;
+        text-align: center;
+        background: rgb(250, 250, 250);
+        border-radius: 10px;
+        padding: 15px;
+        font-size: 50px;
+        margin: 5px auto;
+        box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.5);
+    }
+
+    select, input {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    
+    }
+    
+       
+    
+}
